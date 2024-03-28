@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.lista-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr.bloqueado-si {
+    background-color: #ce6f6f; 
+}
+
+tr.bloqueado-no {
+    background-color: #71db71; 
+}
+
+
+.bloquear-btn,
+.desbloquear-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bloquear-btn {
+    background-color: #c7c7c7; 
+    color: #000;
+}
+
+.desbloquear-btn {
+    background-color: #c7c7c7; 
+    color: #000;
+}
+
+
+.bloquear-btn img,
+.desbloquear-btn img {
+    width: 20px; 
+    height: 20px; 
+    vertical-align: middle; 
+}
