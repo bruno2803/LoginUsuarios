@@ -55,7 +55,7 @@ button:hover {
 input[type="text"]:focus,
 input[type="password"]:focus {
     outline: none;
-    border-color: #4CAF50;
+    border-color: #000000;
 }
 
 input[type="text"]::placeholder,
